@@ -1,11 +1,14 @@
-import Header from './components/Header'
+import "./App.css";
+import Header from './components/Header';
 import logo from './assets/logo.svg';
-import './App.css';
+import Profile from './pages/Profile';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="Main">
      <Header logo={logo}/>
+     {/* <Profile userName='octocat'/> */}
     </div>
   );
 }
